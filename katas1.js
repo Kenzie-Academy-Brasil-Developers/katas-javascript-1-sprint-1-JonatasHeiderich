@@ -43,14 +43,16 @@ console.log(multiplesOfFive());
 
 
 function squareNumbers() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
+  let meuRetorno = [];
+for (let counter = 1; counter <= 100; counter++) {
+let qP = counter * counter
+if (qP <=100){
+  meuRetorno.push(qP)
 }
-
-//call function squareNumbers
+}
+return meuRetorno
+}
+console.log(squareNumbers())
 
 function countingBackwards() {
     
