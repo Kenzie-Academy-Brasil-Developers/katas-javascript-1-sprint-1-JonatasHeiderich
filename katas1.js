@@ -16,11 +16,11 @@ function evensToTwenty() {
     } 
     return meuRetorno1
 }
-  console.log(evensToTwenty());
+console.log(evensToTwenty());
 
 
-  function oddsToTwenty() {
-    let meuRetorno2 = [];
+function oddsToTwenty() {
+  let meuRetorno2 = [];
     for (let counter = 1; counter <=20; counter++){
         if (counter % 2 !== 0)
             meuRetorno2.push(counter)
