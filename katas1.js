@@ -1,94 +1,117 @@
 function oneThroughTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
-    
+  let meuRetorno = [];
+   for (let counter = 1; counter <= 20; counter++){
+        meuRetorno.push(counter)
+   }
+  return meuRetorno
 }
+console.log(oneThroughTwenty())
 
-//call function oneThroughTwenty
 
 function evensToTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
-  
+  let meuRetorno1 = [];
+  for (let counter = 1; counter <= 20; counter++) {
+        if (counter % 2 ===0);
+            meuRetorno1.push(counter)
+    } 
+    return meuRetorno1
 }
+console.log(evensToTwenty());
 
-//call function evensToTwenty
 
 function oddsToTwenty() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-   
+  let meuRetorno2 = [];
+    for (let counter = 1; counter <=20; counter++){
+        if (counter % 2 !== 0)
+            meuRetorno2.push(counter)
+  }
+  return meuRetorno2
 }
+console.log(oddsToTwenty())
 
-//call function oddsToTwenty
+
 
 function multiplesOfFive() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-
+  let meuRetorno3 = [];
+  for (let counter = 1; counter <= 100; counter ++){
+      if (counter % 5 === 0 || counter % 5 === 5)
+          meuRetorno3.push(counter)
+  }
+  return meuRetorno3
 }
+console.log(multiplesOfFive());
 
-//call function multiplesOfFive
+
 
 function squareNumbers() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
+  let meuRetorno4 = [];
+  for (let counter = 1; counter <= 100; counter++){
+      let qP = counter * counter 
+      if (qP <= 100){
+          meuRetorno4.push(qP)
+      }
+  }
+  return meuRetorno4
 }
+console.log(squareNumbers())
 
-//call function squareNumbers
+
 
 function countingBackwards() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let meuRetorno5 = [];
+  for (let counter = 20; counter > 0; counter --){
+      meuRetorno5.push(counter)
+  }
+  return meuRetorno5;
 }
+console.log(countingBackwards())
 
-//call function countingBackwards
+  
 
 function evenNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+    let meuRetorno6 = []
+    for (let counter = 20; counter > 0; counter--){
+        if(counter % 2 === 0)
+            meuRetorno6.push(counter)
+    }
+    return meuRetorno6
 }
+console.log(evenNumbersBackwards())
 
-//call function evenNumbersBackwards
 
-function oddNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+
+function oddNumberBackwards(){
+  let meuRetorno7 = [];
+  for (let counter = 20; counter > 0; counter--){
+      if (counter % 2 !== 0)
+          meuRetorno7.push(counter)
+  }
+  return meuRetorno7
 }
+console.log (oddNumberBackwards())
+   
 
-//call function oddNumbersBackwards
 
 function multiplesOfFiveBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let meuRetorno8 = [];
+   for (let counter = 100; counter > 0; counter--){
+      if(counter % 5 === 0 || counter % 5 === 5)
+          meuRetorno8.push(counter)
+  }
+  return meuRetorno8
 }
+console.log(multiplesOfFiveBackwards());
 
-//call function multiplesOfFiveBackwards
 
-function squareNumbersBackwards() {
-    
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
+
+function squareNumbersBackwards(){
+    let meuRetorno9 = [];
+    for (let counter = 100; counter > 0; counter--){
+        let qP = counter * counter 
+        if (qP <= 100) {
+            meuRetorno9.push(qP)
+        }
+    }
+    return meuRetorno9
 }
-
-//call function squareNumbersBackwards
+console.log(squareNumbersBackwards())
